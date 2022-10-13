@@ -9,9 +9,9 @@
 <body>
     <nav>
         <ul>
-            <li>About</li>
-            <li>Home</li>
-            <li>learn_django</li>
+            <li><a href="{% url 'aboutus'%}">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="{% url 'LD'%}">learn_django</a></li>
         </ul>
     </nav>
     {% block content %}{% endblock content %}
